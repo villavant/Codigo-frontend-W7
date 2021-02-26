@@ -38,7 +38,7 @@
         </div>
       </form>
       <hr>
-      <form>
+      <form action="" oninput="x.value = parseInt(a.value)+parseInt(b.value)">
           <div>
               <input type="text" name="mother-name" id="mother-name" ></input>
               <label for="mother-name">Nombre de madre</label>
@@ -84,6 +84,16 @@
             <div>
                 <textarea name="message" id="message" cols="30" row="10">Desarrollo Frontend en CodiGo</textarea> </br>
                 <button type="button" onclick="alert('hola Jorge')">Hazme click, dude!!</button>
+            </div>
+            <div>
+                0
+                <input type="range" id="a" value="50">
+                100
+                <input type="number" id="b" value="50">
+                =
+                <output name="x" for="a b" ></output>
+
+
             </div>
           </div>
       </form>
