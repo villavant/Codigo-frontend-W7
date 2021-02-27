@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    text-align: start;
+}
+header{
+    background-color: purple;
+    text-align: center;
+}
+.hola-mundo{
+    background-color: rgb(0, 99, 0);
+    font-size: 50px;
+}
+
+#lugar {
+    color: white;
+    font-weight: bold;
+    font-size: 150px;
+}

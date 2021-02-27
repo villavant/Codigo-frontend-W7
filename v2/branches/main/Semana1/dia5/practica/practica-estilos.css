@@ -1,0 +1,23 @@
+header{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.title-option{
+    background-color: yellow;
+    color: black;    
+    text-align: left;
+}
+.parrafo{
+    background-color: green;
+    color: black;    
+    text-align: center;
+}
+#footerid {
+    background-color: red;
+    color: black;    
+    text-align: center;
+}
+figure{
+text-align: center;
+}
