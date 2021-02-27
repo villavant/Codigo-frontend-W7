@@ -16,6 +16,7 @@ header{
 #footerid {
     background-color: red;
     color: black;    
+    text-align: center;
 }
 figure{
 text-align: center;
