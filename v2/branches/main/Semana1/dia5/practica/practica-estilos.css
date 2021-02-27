@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(75, 138, 138);
+}
 header{
     text-align: center;
     font-size: 40px;
@@ -20,4 +23,12 @@ header{
 }
 figure{
 text-align: center;
+}
+img{
+    border-radius: 50px;
+}
+.input-style{
+    background-color: antiquewhite;
+    caret-color: green;
+    color: brown;
 }
