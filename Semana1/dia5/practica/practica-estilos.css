@@ -1,5 +1,6 @@
 body{
     background-color: rgb(75, 138, 138);
+    background-image: url("https://cdn.alfabetajuega.com/wp-content/uploads/2020/12/luffy-one-piece-780x405.jpeg");
 }
 header{
     text-align: center;
@@ -31,4 +32,12 @@ img{
     background-color: antiquewhite;
     caret-color: green;
     color: brown;
+}
+
+#centrame:hover{
+text-align:left ;
+}
+form > label + input{
+    background-color: blueviolet;
+    font-size: 100px;
 }
