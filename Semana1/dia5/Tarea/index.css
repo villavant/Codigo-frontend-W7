@@ -15,19 +15,25 @@ body {
 
 nav {
   background-color: rgba(30, 29, 34, 0.952);
-  /* height: 40px; */
   padding-top: 10px;
   padding-bottom: 10px;
+  text-align: center;
 }
 nav a {
   color: white;
   font-size: 25px;
-  padding-left: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
   text-decoration: none;
+  text-align: center;
+}
+nav a:hover {
+  background-color: rgb(102, 201, 115);
+  cursor: pointer;
 }
 
 footer {
-  background-color:rgba(30, 29, 34, 0.952);
+  background-color: rgba(30, 29, 34, 0.952);
   height: 100px;
 }
 
@@ -42,15 +48,22 @@ footer {
   height: 400px;
   border-radius: 50px;
 }
-.divAlign{
-    display: inline-block;
-    font-size: 20px;
-
+#divMain{
+    display: flex;
+    justify-content: center;
 }
-/* #divDescription{
-
+.divAlign {
+  font-size: 20px;
 }
-#divPhases{
-
-} */
-
+#divDescription {
+  float: left;
+  background-color: rgb(235, 218, 196);
+  width: 500px;
+}
+#divPhases {
+  font-family: fantasy;
+  font-size: xx-large;
+  background-color: rgb(235, 218, 196);
+  border-radius: 20px;
+  width: 500px;
+}
