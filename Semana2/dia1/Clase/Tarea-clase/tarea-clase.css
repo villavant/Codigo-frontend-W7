@@ -47,16 +47,24 @@ sub{
 }
 #firstName{
     font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    font-weight: bold;
 }
 #secondName{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-weight: bold;
 }
 #lastName{
     font-family:   Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    font-weight: bold;
 }
 #lastNameName{
     font-family: 'Roboto Slab', serif;
+    font-size: 65px;
+    font-weight: bold;
 }
 .container{
-    display: inline-flex;
+    display: inline-;
 }
