@@ -57,3 +57,6 @@ sub{
 #lastNameName{
     font-family: 'Roboto Slab', serif;
 }
+.container{
+    display: inline-flex;
+}
