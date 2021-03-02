@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=DotGothic16&family=Krona+One&family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=DotGothic16&family=Krona+One&family=Oi&family=Roboto+Slab:wght@500&family=Source+Code+Pro&family=Stick&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Dancing+Script:wght@700&family=DotGothic16&family=Krona+One&family=Oi&family=Roboto+Slab:wght@500&family=Source+Code+Pro&family=Stick&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Dancing+Script:wght@400;700&family=DotGothic16&family=Krona+One&family=Oi&family=Roboto+Slab:wght@500&family=Source+Code+Pro&family=Stick&display=swap');
+#name {
+  color: greenyellow;
+}
+
+#color1 {
+  color: grey;
+}
+#color2 {
+  color: red;
+}
+#color3 {
+  color: black;
+}
+#color4 {
+  color: blue;
+}
+#color5 {
+  color: violet;
+}
+
+.song{
+    font-family: 'Roboto Slab', serif;
+}
+.poema{
+    font-family: 'DotGothic16', sans-serif;
+    
+}
+#phrase1{
+    font-family: 'Akaya Telivigala', cursive;
+}
+/* #phrase2{
+    font-family: 'Akaya Telivigala', cursive;
+} */
+#phrase3{
+    font-family: 'DotGothic16', sans-serif;
+}
+#phrase4{
+    font-family: 'Dancing Script', cursive;
+}
+sub{
+    color: turquoise;
+}
+#firstName{
+    font-family: 'Roboto Slab', serif;
+}
+#secondName{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#lastName{
+    font-family:   Arial, Helvetica, sans-serif;
+}
+#lastNameName{
+    font-family: 'Roboto Slab', serif;
+}
