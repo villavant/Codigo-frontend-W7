@@ -1,0 +1,30 @@
+body {
+  background-color: lightskyblue;
+  background-image: url("https://i.pinimg.com/originals/01/bf/12/01bf127aa6473d146584ab1355650a6a.jpg");
+  /* background-repeat: no-repeat;
+  background-size: contain; */
+}
+#parrafo1 {
+  background-color: red;
+  max-width: 50%;
+}
+#parrafo2 {
+  background-color: green;
+  opacity: 0.5;
+}
+#parrafo3 {
+  background-color: blue;
+  opacity: 0.2;
+  color: black;
+}
+#parrafo4{
+    background: rgba(70, 122, 54, 0.4);
+}
+
+#container{
+    background-image: url("https://i.pinimg.com/originals/01/bf/12/01bf127aa6473d146584ab1355650a6a.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    width:  350px;
+}
