@@ -1,0 +1,16 @@
+#titulo{
+    border-style: double dashed dashed dotted;
+}
+
+#line1{
+    border-style: inset;
+}
+#line2{
+    border-style: double;
+}
+#line3{
+    border-style: solid;
+}
+#line4{
+    border-style: dotted double dotted double;
+}
