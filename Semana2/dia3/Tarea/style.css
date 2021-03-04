@@ -17,34 +17,36 @@ img {
   }
   15% {
     border-radius: 15%;
-    transform: translate(700px, 0px);
-    /* transform: translateX(700px); */
+    transform: translate(700px, 0px) rotate(60deg) scale(-1.5);
+    /* transform:  rotate(0deg) scale(1.5); */
+    
   }
   30% {
     border-radius: 30%;
-    transform: translate(700px, 700px);
-    /* transform: translateY(750px); */
+    transform: translate(700px, 700px) rotate(120deg) scale(-1.5);
+    /* transform:  rotate(0deg) scale(-1.5); */
   }
   45% {
     border-radius: 45%;
-    transform: translate(-700px, 700px);
+    transform: translate(-700px, 700px) rotate(180deg) scale(-1.5);
   }
   60% {
     border-radius: 60%;
-    transform: translate(-700px, 0px);
+    transform: translate(-700px, 0px) rotate(240deg) scale(-1.5);
   }
   75% {
     border-radius: 75%;
-    transform: translate(0px, 0px);
+    transform: translate(0px, 0px) rotate(300deg) scale(-1.5);
   }
   90% {
     border-radius: 90%;
-    transform: translate(0px, 350px);
+    transform: translate(0px, 350px) rotate(360deg) scale(-1.5);
   }
 
   100% {
     border-radius: 100%;
     transform: translate(0px, 0px);
+    filter:  grayscale(50%);
   }
 }
 @keyframes mi-background {
