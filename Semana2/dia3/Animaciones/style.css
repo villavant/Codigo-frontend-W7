@@ -43,7 +43,7 @@ img{
 }
 @keyframes mi-animacion{
     0%{
-        background-color: brown;
+        background-image: brown;
     }
     50%{
         background-color: cadetblue;
