@@ -32,3 +32,8 @@ body{
     width: 250px;
     background-image: linear-gradient(to left,red,white,white,red);
 }
+#gradiente-linea-transparent{
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(to right, rgba(238, 12, 19, 0),rgba(44, 2, 37, 0.1));
+}
