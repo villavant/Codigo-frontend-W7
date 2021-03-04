@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+}
+#div1{
+    height: 250px;
+    width: 695px;
+    border-radius: 65%;
+    background-image: linear-gradient(to bottom right,red,blue,white,violet ,orange,green ,black);
+}
+#div1 h1{
+    padding-top: 15%;
+}
+
