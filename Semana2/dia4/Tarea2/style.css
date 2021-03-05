@@ -1,0 +1,23 @@
+body {
+  background-color: green;
+  padding-left: 5%;
+}
+#tittle {
+  /* padding-left: 5%; */
+}
+#llama-image {
+  height: 200px;
+  width: 700px;
+  margin-left: -40px;
+  border: 7px solid orange;
+  /* box-sizing: border-box; */
+}
+
+textarea{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;    
+    height: 300px;
+    width: 700px;
+    background-color: yellow;
+    border: 7px dashed orange;
+}

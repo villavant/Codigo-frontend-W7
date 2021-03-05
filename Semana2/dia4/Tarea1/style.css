@@ -13,10 +13,9 @@ body{
 #image{
     height: 400px;
     width: 200px;
-    border:solid;
-    border-radius: 50px;
+    border-radius: 50%;
     margin-bottom: 30px;
-    border-width: 10px;
+    border: 10px solid rebeccapurple
 }
 #aditional{
     color: black;
@@ -25,9 +24,7 @@ body{
     color: black;
     padding-top: 20px;
     padding-bottom: 10px;
-    border: solid;
-    border-color: blue;
-    border-width: 1px;
+    border: 1px solid blue;
 }
 footer{
     background-color: blue;
