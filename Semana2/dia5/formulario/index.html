@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Repaso de formulario</title>
+  </head>
+  <body>
+    <h1>Formularios</h1>
+    <div id="contenedor-principal">
+      <h3>Una pequeña encuesta sobre frontend</h3>
+      <form action="">
+        <div class="pregunta">
+            <label for="nombre">* Nombre</label>
+            <input id="nombre" type="text"  placeholder="Ingresar tu nombre"/>
+        </div>
+        <div class="pregunta">
+            <label for="email">* Email</label>
+            <input id="email" type="email" placeholder="Ingregsar Email" />
+        </div>
+        <div class="pregunta">
+            <label for="edad">*Edad</label>
+            <input id="edad" type="number" placeholder="Ingresar Edad"/>
+        </div>
+        <div class="pregunta">
+            <label>Seleccionar ocupación</label>
+            <select name="" id="">
+                <option value="carrera1">carrera 1</option>
+                <option value="carrera2">carrera 2</option>
+                <option value="carrera3">carrera 3</option>
+            </select>
+        </div>
+        <div id="radio-pregunta">
+                <label>¿Que tanto te gusta el frontend?</label></br>
+            <div id="radio-option">
+
+                <input type="radio" id="mucho" name="categoria" value="mucho" /> Mucho
+                <br>
+                <input type="radio" id="maso" name="categoria" value="maso"/> Maso
+                <br>
+                <input type="radio" id="poco" name="categoria" value="poco"/> Poco
+            </div>
+        </div>
+        <button>OK- Enviar</button>
+      </form>
+    </div>
+  </body>
+</html>
