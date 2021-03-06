@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+}
+header{
+    background-color: rgba(136, 134, 134, 0.336);
+}
+img{
+    filter: grayscale(50);
+}
+#tittle{
+    font-weight: bold;
+    padding-top: 20px;
+}
+#subtittle{
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+#tittle_footer{
+    font-weight: lighter;
+}
