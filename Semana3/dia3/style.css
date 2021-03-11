@@ -1,0 +1,83 @@
+#contenedor-vert {
+  display: flex;
+  flex-direction: column;
+  background-color: teal;
+}
+#contenedor-hor {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+}
+
+#contenedor-hor-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: yellow;
+}
+#contenedor-hor-final {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: violet;
+}
+#contenedor-hor-inicio {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: blue;
+}
+#contenedor-hor-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: brown;
+}
+#contenedor-hor-expansor {
+  display: flex;
+  flex-direction: row;
+  background-color: green;
+}
+
+#elemento1 {
+  flex-grow: 1;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background-color: white;
+}
+#elemento2 {
+  flex-grow: 2;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background-color: white;
+}
+#elemento3 {
+  flex-grow: 3;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background-color: white;
+}
+
+#contenedor-hor-envoltorio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: skyblue;
+}
+
+#contenedor-hor-ilineitem {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  background-color: rgb(39, 48, 51);
+}
+
+.elemento {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin: 20px;
+}
