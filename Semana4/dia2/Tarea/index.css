@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html{
+  /* background-image: url("https://i.pinimg.com/564x/28/f0/67/28f0673b3b04ffd3fcfadbd35c5a31e5.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#main {
+  text-align: center;
+  height: auto;
+}
+
+#divSelect {
+  margin-top: 50px;
+}
+/* #lbSong{
+  color: white;
+} */
+#divSong {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+#idTittle{
+  font-size: xx-large;
+  color: rgb(73, 95, 95);
+}
+#idlyrics {
+  font-size: large;
+  color: rgb(46, 47, 56);
+  font-weight: bolder;
+  padding: 30px;
+  border-radius: 20px;
+  justify-content: center;
+  opacity: 0.8;
+  box-sizing: border-box;
+}
+
+
+
+.bkg-harry{
+  animation:bkg-harry-style 5s infinite;
+}
+@keyframes bkg-harry-style {
+  0% {
+    background-image: url("https://i.pinimg.com/236x/a5/68/4a/a5684a78a0859e0afaf2a2f3a0e72b7d.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  20% {
+    background-image: url("https://i.pinimg.com/236x/d6/82/c4/d682c4e8ecfd580b606f61649c439238.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  40% {
+    background-image: url("https://i.pinimg.com/236x/45/08/42/45084244c31060c209ff0f2eaecef59f.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  60% {
+    background-image: url("https://i.pinimg.com/236x/fa/57/55/fa57551936d18c91500f3eaa0d6b4103.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  80% {
+    background-image: url("https://i.pinimg.com/236x/58/90/6a/58906a7a3d4f662c6c054c8fdbec0b4f.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  100% {
+    background-image: url("https://i.pinimg.com/236x/71/f3/b5/71f3b54a9c333b55aa1784031312092c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+
+  
+.bkg-lady{
+  animation:bkg-lady-gaga 5s infinite;
+}
+@keyframes bkg-lady-gaga {
+  0% {
+    background-image: url("https://i.pinimg.com/236x/ee/9f/d4/ee9fd4c5529f8977054311a5e468bf20.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  20% {
+    background-image: url("https://i.pinimg.com/236x/49/56/f3/4956f3e7fb82cd1f03986f2af18d5bce.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  40% {
+    background-image: url("https://i.pinimg.com/236x/24/de/de/24dede81e5e85338d704af8b7a2288ec.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  60% {
+    background-image: url("https://i.pinimg.com/236x/ee/de/1d/eede1ddf59eae005e6da1e29b30170a1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  80% {
+    background-image: url("https://i.pinimg.com/236x/56/f9/53/56f95306e597ee2afefc2ff913dc2acb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  100% {
+    background-image: url("https://i.pinimg.com/236x/f4/36/5e/f4365e39eb1b5d84cc580e388a084062.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
