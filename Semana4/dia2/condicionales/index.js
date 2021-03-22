@@ -16,27 +16,31 @@
 //     console.log('none')
 // }
 
-
 var seleccionar = document.getElementById("idSelect");
 console.log(seleccionar);
-var  parrafo = document.getElementById('parr');
+var parrafo = document.getElementById("parr");
 console.log(parrafo);
-
 
 seleccionar.addEventListener("change", setClima);
 
 function setClima() {
-    let item = seleccionar.value;
-    console.log(item)
-    if (item === "soleado") {
-        parrafo.textContent = "El día está agradable y muy bonito";
-    } else if (item === "lluvioso") {
-        parrafo.textContent = "Está lloviendo, mejor quedate en casa";
-    } else if (item === "nevado") {
-        parrafo.textContent = "Si sales, trata de salir con algo ";
-    } else if (item === "nublado") {
-        parrafo.textContent = "No hace falts que salgas con lentes de sol"
-    } else {
-        parrafo.textContent = ""
-    }
+  let item = seleccionar.value;
+  console.log(item);
+  switch (item) {
+    case "soleado":
+      parrafo.textContent = "El día está agradable y muy bonito";
+      break;
+    case "lluvioso":
+      parrafo.textContent = "Está lloviendo, mejor quedate en casa";
+      break;
+    case "nevado":
+      parrafo.textContent = "Si sales, trata de salir con algo ";
+      break;
+    case "nublado":
+      parrafo.textContent = "No hace falts que salgas con lentes de sol";
+      break;
+    default:
+      parrafo.textContent = "";
+      break;
+  }
 }
